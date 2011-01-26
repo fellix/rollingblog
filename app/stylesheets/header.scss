@@ -1,0 +1,41 @@
+#title{
+  height: 150px;  
+}
+#top{
+  width: 760px;
+  margin:0 auto;			
+  padding: 10px;
+  text-align:left; /* "remédio" para o hack do IE */	
+}
+#blog{
+  font-size: 80px;
+  color: #000;
+}
+#subtitle{
+  font-size: 20px;
+}
+#pages{
+  padding: 10px;
+  height: 30px;
+  text-align:left; /* "remédio" para o hack do IE */	
+  background-color: #ccc;
+}
+
+#pages li{
+  display: inline;
+  padding: 10px;
+}
+
+#pages li a{
+  text-decoration: none;
+  color:#000;
+  font-size: 25px;
+}
+
+#pages li a:hover {
+  color: #000;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  text-decoration:underline;
+  background-color:#FFFAFA;
+}

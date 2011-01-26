@@ -1,0 +1,136 @@
+@charset "UTF-8";
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 14, ../../../../../../../../home/suerafa/.rvm/gems/ruby-1.9.2-p136@1_9_2_gemset/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+
+/* line 17, ../../../../../../../../home/suerafa/.rvm/gems/ruby-1.9.2-p136@1_9_2_gemset/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+body {
+  line-height: 1;
+  color: black;
+  background: white;
+}
+
+/* line 19, ../../../../../../../../home/suerafa/.rvm/gems/ruby-1.9.2-p136@1_9_2_gemset/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 21, ../../../../../../../../home/suerafa/.rvm/gems/ruby-1.9.2-p136@1_9_2_gemset/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  vertical-align: middle;
+}
+
+/* line 23, ../../../../../../../../home/suerafa/.rvm/gems/ruby-1.9.2-p136@1_9_2_gemset/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 25, ../../../../../../../../home/suerafa/.rvm/gems/ruby-1.9.2-p136@1_9_2_gemset/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: "" "";
+}
+/* line 96, ../../../../../../../../home/suerafa/.rvm/gems/ruby-1.9.2-p136@1_9_2_gemset/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+}
+
+/* line 27, ../../../../../../../../home/suerafa/.rvm/gems/ruby-1.9.2-p136@1_9_2_gemset/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 1, ../../../app/stylesheets/header.scss */
+#title {
+  height: 150px;
+}
+
+/* line 4, ../../../app/stylesheets/header.scss */
+#top {
+  width: 760px;
+  margin: 0 auto;
+  padding: 10px;
+  text-align: left;
+  /* "remédio" para o hack do IE */
+}
+
+/* line 10, ../../../app/stylesheets/header.scss */
+#blog {
+  font-size: 80px;
+  color: #000;
+}
+
+/* line 14, ../../../app/stylesheets/header.scss */
+#subtitle {
+  font-size: 20px;
+}
+
+/* line 17, ../../../app/stylesheets/header.scss */
+#pages {
+  padding: 10px;
+  height: 30px;
+  text-align: left;
+  /* "remédio" para o hack do IE */
+  background-color: #ccc;
+}
+
+/* line 24, ../../../app/stylesheets/header.scss */
+#pages li {
+  display: inline;
+  padding: 10px;
+}
+
+/* line 29, ../../../app/stylesheets/header.scss */
+#pages li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 25px;
+}
+
+/* line 35, ../../../app/stylesheets/header.scss */
+#pages li a:hover {
+  color: #000;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  text-decoration: underline;
+  background-color: #FFFAFA;
+}
+
+/* line 9, ../../../app/stylesheets/screen.scss */
+body {
+  margin: 0;
+  padding: 0;
+  background: #ccc;
+  text-align: center;
+  /* hack para o IE */
+  font-family: "lucida grande", verdana, sans-serif;
+  font-size: 14px;
+  text-shadow: 1px 1px #fff;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background: url("../../images/bg3.jpg") 100% 0 no-repeat;
+}
