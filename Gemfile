@@ -3,7 +3,7 @@ source 'http://rubygems.org'
 gem 'rails', '3.0.3'
 
 gem 'sqlite3-ruby', :require => 'sqlite3'
-gem "rails_admin"
+gem "rails_admin", :git => 'git://github.com/sferik/rails_admin.git'
 gem "haml"
 gem "will_paginate", ">=3.0.pre2"
 gem "friendly_id", "~>3.0"
@@ -14,6 +14,8 @@ gem "compass", ">= 0.10.6"
 gem "lemonade", "0.3.4"
 
 group :development do
+  gem "hpricot"
+  gem "ruby_parser"
   gem "haml_rails"
   gem "autotest"
   gem "autotest-notification"

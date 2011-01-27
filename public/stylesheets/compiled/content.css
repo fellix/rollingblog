@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/* line 1, ../../../app/stylesheets/content.scss */
+#content {
+  margin: 0 auto;
+  padding: 10px;
+  text-align: left;
+  /* "remédio" para o hack do IE */
+}
+
+/* line 7, ../../../app/stylesheets/content.scss */
+#list_left {
+  float: left;
+  width: 400px;
+  padding-top: 10px;
+  padding-left: 100px;
+}
+
+/* line 14, ../../../app/stylesheets/content.scss */
+#list_right {
+  padding: 10px;
+}
+
+/* line 18, ../../../app/stylesheets/content.scss */
+.mes, h2 {
+  color: #900;
+  font-family: helvetica;
+  font-weight: bold;
+  letter-spacing: -1px;
+  font-size: 25px;
+}
+
+/* line 26, ../../../app/stylesheets/content.scss */
+.post {
+  font-size: 20px;
+}
+
+/* line 30, ../../../app/stylesheets/content.scss */
+.bold {
+  font-weight: bold;
+}

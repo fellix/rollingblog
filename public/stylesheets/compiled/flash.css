@@ -1,0 +1,33 @@
+/* line 1, ../../../app/stylesheets/flash.scss */
+.flash, .error, .alert, .notice {
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  text-align: center;
+  margin: 0 auto 15px;
+  font-weight: bold;
+  padding: 9px 0 9px 0;
+  background-repeat: no-repeat;
+  background-position: 8px 8px;
+  color: #000000;
+}
+
+/* line 13, ../../../app/stylesheets/flash.scss */
+.error {
+  border: 1px solid #fbb;
+  background-color: #fdd;
+  background-image: url(../../images/icons/cross.png);
+}
+
+/* line 20, ../../../app/stylesheets/flash.scss */
+.alert {
+  border: 1px solid #fffaaa;
+  background-color: #ffffcc;
+  background-image: url(../../images/icons/asterisk.png);
+}
+
+/* line 27, ../../../app/stylesheets/flash.scss */
+.notice {
+  background-color: #BBFFB6;
+  border: 1px solid #1FDF00;
+  background-image: url(../../images/icons/tick.png);
+}

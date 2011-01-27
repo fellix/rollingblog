@@ -1,0 +1,32 @@
+.flash{
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  text-align:center;
+  margin: 0 auto 15px;
+  font-weight: bold;
+  padding: 9px 0 9px 0;
+  background-repeat: no-repeat;
+  background-position: 8px 8px;
+  color: #000000;
+}
+
+.error{
+  @extend .flash;
+  border: 1px solid #fbb;
+  background-color: #fdd;
+  background-image: url(../../images/icons/cross.png);
+}
+
+.alert{
+  @extend .flash;
+  border: 1px solid #fffaaa;
+  background-color: #ffffcc;
+  background-image:  url(../../images/icons/asterisk.png);
+}
+
+.notice{
+  @extend .flash;
+  background-color: #BBFFB6;
+  border: 1px solid #1FDF00;
+  background-image: url(../../images/icons/tick.png);
+}

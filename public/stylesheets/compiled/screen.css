@@ -119,7 +119,188 @@ a img {
   background-color: #FFFAFA;
 }
 
-/* line 9, ../../../app/stylesheets/screen.scss */
+/* line 1, ../../../app/stylesheets/flash.scss */
+.flash, .error, .alert, .notice {
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  text-align: center;
+  margin: 0 auto 15px;
+  font-weight: bold;
+  padding: 9px 0 9px 0;
+  background-repeat: no-repeat;
+  background-position: 8px 8px;
+  color: #000000;
+}
+
+/* line 13, ../../../app/stylesheets/flash.scss */
+.error {
+  border: 1px solid #fbb;
+  background-color: #fdd;
+  background-image: url(../../images/icons/cross.png);
+}
+
+/* line 20, ../../../app/stylesheets/flash.scss */
+.alert {
+  border: 1px solid #fffaaa;
+  background-color: #ffffcc;
+  background-image: url(../../images/icons/asterisk.png);
+}
+
+/* line 27, ../../../app/stylesheets/flash.scss */
+.notice {
+  background-color: #BBFFB6;
+  border: 1px solid #1FDF00;
+  background-image: url(../../images/icons/tick.png);
+}
+
+/* line 1, ../../../app/stylesheets/content.scss */
+#content {
+  margin: 0 auto;
+  padding: 10px;
+  text-align: left;
+  /* "remédio" para o hack do IE */
+}
+
+/* line 7, ../../../app/stylesheets/content.scss */
+#list_left {
+  float: left;
+  width: 400px;
+  padding-top: 10px;
+  padding-left: 100px;
+}
+
+/* line 14, ../../../app/stylesheets/content.scss */
+#list_right {
+  padding: 10px;
+}
+
+/* line 18, ../../../app/stylesheets/content.scss */
+.mes, h2 {
+  color: #900;
+  font-family: helvetica;
+  font-weight: bold;
+  letter-spacing: -1px;
+  font-size: 25px;
+}
+
+/* line 26, ../../../app/stylesheets/content.scss */
+.post {
+  font-size: 20px;
+}
+
+/* line 30, ../../../app/stylesheets/content.scss */
+.bold {
+  font-weight: bold;
+}
+
+/* line 1, ../../../app/stylesheets/form.scss */
+form {
+  /*border: 1px solid #ddd; */
+  padding: 10px;
+  margin: 25px 0;
+}
+
+/* line 2, ../../../app/stylesheets/form.scss */
+form fieldset {
+  border: 0;
+  padding: 10px 25px 15px;
+  margin: 0;
+}
+
+/* line 3, ../../../app/stylesheets/form.scss */
+form fieldset legend {
+  display: none;
+}
+
+/* line 4, ../../../app/stylesheets/form.scss */
+form p {
+  height: 1%;
+}
+
+/* line 5, ../../../app/stylesheets/form.scss */
+form p:after {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+
+/* line 6, ../../../app/stylesheets/form.scss */
+form label {
+  font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  color: #333;
+}
+
+/* line 11, ../../../app/stylesheets/form.scss */
+.alabel, form p label {
+  display: block;
+  width: 10%;
+  margin-top: 27px;
+  margin-right: 20px;
+}
+
+/* line 17, ../../../app/stylesheets/form.scss */
+form p label {
+  float: left;
+}
+
+/* line 23, ../../../app/stylesheets/form.scss */
+form p input,
+form p select,
+form p textarea {
+  font-size: 1em;
+  color: #333;
+  border: 1px solid #ddd;
+  padding: 8px;
+  background-color: #eee;
+  margin-bottom: 10px;
+  width: 25%;
+  font-family: Tahoma, Arial, Helvetica, sans-serif;
+}
+
+/* line 33, ../../../app/stylesheets/form.scss */
+form p select {
+  width: 57.5%;
+}
+
+/* line 34, ../../../app/stylesheets/form.scss */
+form ul.fieldlist {
+  margin: -30px 0 10px 33%;
+  padding: 0;
+  list-style-type: none;
+}
+
+/* line 35, ../../../app/stylesheets/form.scss */
+form ul.fieldlist li {
+  color: #333;
+  padding: 0 30px 5px 0;
+  white-space: nowrap;
+}
+
+/* line 37, ../../../app/stylesheets/form.scss */
+form input.btn,
+a.btn {
+  width: auto;
+  overflow: visible;
+  border: 0;
+  background: #099;
+  padding: 8px 10px;
+  cursor: pointer;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  width: 20%;
+}
+
+/* line 49, ../../../app/stylesheets/form.scss */
+a.btn:hover {
+  background-color: #ccc;
+  color: #333;
+}
+
+/* line 12, ../../../app/stylesheets/screen.scss */
 body {
   margin: 0;
   padding: 0;

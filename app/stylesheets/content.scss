@@ -1,0 +1,36 @@
+#content{
+  margin:0 auto;
+  padding: 10px;
+  text-align:left; /* "remédio" para o hack do IE */
+}
+
+#list_left{
+  float: left;
+  width: 400px;
+  padding-top: 10px;
+  padding-left: 100px;
+}
+
+#list_right{
+  padding: 10px;
+}
+
+.mes{
+  color: #900;
+  font-family: helvetica;
+  font-weight: bold;
+  letter-spacing: -1px;
+  font-size: 25px;
+}
+
+.post{
+  font-size: 20px;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+h2{
+  @extend .mes;
+}
