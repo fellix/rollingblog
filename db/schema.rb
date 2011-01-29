@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110126225259) do
+ActiveRecord::Schema.define(:version => 20110129010352) do
 
   create_table "histories", :force => true do |t|
     t.string   "message"
@@ -24,6 +24,14 @@ ActiveRecord::Schema.define(:version => 20110126225259) do
   end
 
   add_index "histories", ["item", "table", "month", "year"], :name => "index_histories_on_item_and_table_and_month_and_year"
+
+  create_table "posts", :force => true do |t|
+    t.integer  "user_id",                   :null => false
+    t.string   "title",      :limit => 200, :null => false
+    t.text     "body",                      :null => false
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "slugs", :force => true do |t|
     t.string   "name"
@@ -51,6 +59,7 @@ ActiveRecord::Schema.define(:version => 20110126225259) do
     t.string   "last_sign_in_ip"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "name",                 :limit => 200
   end
 
   add_index "users", ["email"], :name => "index_users_on_email", :unique => true

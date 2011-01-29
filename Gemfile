@@ -19,16 +19,18 @@ group :development do
   gem "haml_rails"
   gem "autotest"
   gem "autotest-notification"
+  gem 'shoulda'
 end
 
 group :development, :test do
   gem "evergreen"
+  gem "shoulda"
   gem "factory_girl_rails"
   gem "rspec-rails", ">=2.4.1"
   gem "evergreen", :require => "evergreen/rails"
 end
 
 group :test do
-  gem "rspec", ">=2.4.0"    
+  gem "rspec", ">=2.4.0"  
   gem 'simplecov', '>= 0.3.8', :require => false
 end
