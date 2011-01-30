@@ -1,5 +1,5 @@
 class PagesController < ApplicationController
   def index
-    @posts = Post.list
+    @groupers = PostGrouper.all
   end
 end
