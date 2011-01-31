@@ -16,6 +16,7 @@ class Post < ActiveRecord::Base
   belongs_to :user
   validates :title, :body, :user, :presence => true
   validates :title, :length => { :maximum => 200 }
+  has_friendly_id :title, :use_slug => true
   
   def self.list
     self.order(:desc => "created_at").limit(10)
@@ -23,6 +24,6 @@ class Post < ActiveRecord::Base
   
   def month_year
     "#{MONTHS[self.created_at.month]} de #{self.created_at.year}"
-  end
+  end  
   
 end

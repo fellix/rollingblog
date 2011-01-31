@@ -1,12 +1,5 @@
 %div{:id => :main}
-  - count = 0
-  - @groupers.each do |group|
-    - if count == 0
-      %div{:id => :list_left}
-    - elsif count == 6
-      %div{:id => :list_rigth}
-    %p{:class => :mes}= group[1].month
-    - group[1].posts.each do |post|
-      - count += 1
-      %div{:id => "post_#{post.id}", :class => :post}
-        %p= link_to post.title, "#"
+  %div{:id => :list_left}
+    = render("posts/post_index", :posts => @left_group)
+  %div{:id => :list_rigth}
+    = render("posts/post_index", :posts => @right_group)

@@ -1,0 +1,7 @@
+- previous = nil
+- posts.each do |post|
+  - if previous.nil? || previous.month_year != post.month_year
+    %p{:class => :mes}= post.month_year
+  - previous = post
+  %div{:id => "post_#{post.id}", :class => :post}
+    %p= link_to post.title, post_path(post)

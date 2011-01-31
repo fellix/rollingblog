@@ -1,0 +1,17 @@
+#post{
+  padding-top: 20px;
+}
+#post_body{
+  @extend #post;
+  padding-left: 200px;
+}
+
+#post_content{
+  @extend #post;
+}
+
+#post_footer{
+  @extend #post;
+  font-style: italic;
+  font-size: 10px;
+}

@@ -21,20 +21,20 @@
       <img src="./assets/0.3.9/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2011-01-29T23:42:20-02:00">2011-01-29T23:42:20-02:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2011-01-30T16:45:47-02:00">2011-01-30T16:45:47-02:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
         <div class="file_list_container" id="AllFiles">
   <h2>
     All Files
-    (<span class="green">95.92%</span>)
+    (<span class="green">92.59%</span>)
   </h2>
   <a name="AllFiles"></a>
   <div>
-    <b>7</b> files in total.
-    <b>49</b> relevant lines. 
-    <span class="green"><b>47</b> lines covered</span> and
+    <b>6</b> files in total.
+    <b>27</b> relevant lines. 
+    <span class="green"><b>25</b> lines covered</span> and
     <span class="red"><b>2</b> lines missed </span>
   </div>
   <table class="file_list">
@@ -62,9 +62,9 @@
       <tr>
         <td><a href="#ed92f3b30bddd68bf0daa40f46bbfc6bd8f4213d" class="src_link" title="./app/controllers/pages_controller.rb">./app/controllers/pages_controller.rb</a></td>
         <td class="green">100.0 %</td>
-        <td>5</td>
-        <td>3</td>
-        <td>3</td>
+        <td>11</td>
+        <td>8</td>
+        <td>8</td>
         <td>0</td>
       </tr>
       
@@ -88,19 +88,10 @@
       
       <tr>
         <td><a href="#43cd868fafbc988a9e4f73058ad77d666ccebf26" class="src_link" title="./app/models/post.rb">./app/models/post.rb</a></td>
-        <td class="green">100.0 %</td>
+        <td class="yellow">88.89 %</td>
         <td>28</td>
         <td>9</td>
-        <td>9</td>
-        <td>0</td>
-      </tr>
-      
-      <tr>
-        <td><a href="#dc04618d59bcff97c65d2163de53cd737c88e298" class="src_link" title="./app/models/post_grouper.rb">./app/models/post_grouper.rb</a></td>
-        <td class="green">96.3 %</td>
-        <td>41</td>
-        <td>27</td>
-        <td>26</td>
+        <td>8</td>
         <td>1</td>
       </tr>
       
@@ -126,8 +117,8 @@
   <a name="Controllers"></a>
   <div>
     <b>2</b> files in total.
-    <b>5</b> relevant lines. 
-    <span class="green"><b>5</b> lines covered</span> and
+    <b>10</b> relevant lines. 
+    <span class="green"><b>10</b> lines covered</span> and
     <span class="red"><b>0</b> lines missed </span>
   </div>
   <table class="file_list">
@@ -155,9 +146,9 @@
       <tr>
         <td><a href="#ed92f3b30bddd68bf0daa40f46bbfc6bd8f4213d" class="src_link" title="./app/controllers/pages_controller.rb">./app/controllers/pages_controller.rb</a></td>
         <td class="green">100.0 %</td>
-        <td>5</td>
-        <td>3</td>
-        <td>3</td>
+        <td>11</td>
+        <td>8</td>
+        <td>8</td>
         <td>0</td>
       </tr>
       
@@ -168,13 +159,13 @@
           <div class="file_list_container" id="Models">
   <h2>
     Models
-    (<span class="green">95.24%</span>)
+    (<span class="yellow">86.67%</span>)
   </h2>
   <a name="Models"></a>
   <div>
-    <b>3</b> files in total.
-    <b>42</b> relevant lines. 
-    <span class="green"><b>40</b> lines covered</span> and
+    <b>2</b> files in total.
+    <b>15</b> relevant lines. 
+    <span class="green"><b>13</b> lines covered</span> and
     <span class="red"><b>2</b> lines missed </span>
   </div>
   <table class="file_list">
@@ -192,19 +183,10 @@
       
       <tr>
         <td><a href="#43cd868fafbc988a9e4f73058ad77d666ccebf26" class="src_link" title="./app/models/post.rb">./app/models/post.rb</a></td>
-        <td class="green">100.0 %</td>
+        <td class="yellow">88.89 %</td>
         <td>28</td>
         <td>9</td>
-        <td>9</td>
-        <td>0</td>
-      </tr>
-      
-      <tr>
-        <td><a href="#dc04618d59bcff97c65d2163de53cd737c88e298" class="src_link" title="./app/models/post_grouper.rb">./app/models/post_grouper.rb</a></td>
-        <td class="green">96.3 %</td>
-        <td>41</td>
-        <td>27</td>
-        <td>26</td>
+        <td>8</td>
         <td>1</td>
       </tr>
       
@@ -440,22 +422,100 @@
     </tr>
   
     
-    <tr class="hit" data-hits="1">
+    <tr class="hit" data-hits="2">
       <td class="line_number">
         <pre>3</pre>
       </td>
       <td>
-        <pre>    @groupers = PostGrouper.all</pre>
+        <pre>    @posts = Post.list</pre>
       </td>
       <td class="hits">
-        1
+        2
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="2">
+      <td class="line_number">
+        <pre>4</pre>
+      </td>
+      <td>
+        <pre>    @right_group = []</pre>
+      </td>
+      <td class="hits">
+        2
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="2">
+      <td class="line_number">
+        <pre>5</pre>
+      </td>
+      <td>
+        <pre>    @left_group = []</pre>
+      </td>
+      <td class="hits">
+        2
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="2">
+      <td class="line_number">
+        <pre>6</pre>
+      </td>
+      <td>
+        <pre>    @posts.each_with_index do |post, count|</pre>
+      </td>
+      <td class="hits">
+        2
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="10">
+      <td class="line_number">
+        <pre>7</pre>
+      </td>
+      <td>
+        <pre>      @left_group &lt;&lt; post if count &lt; 5</pre>
+      </td>
+      <td class="hits">
+        10
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="10">
+      <td class="line_number">
+        <pre>8</pre>
+      </td>
+      <td>
+        <pre>      @right_group &lt;&lt; post if count &gt;= 5</pre>
+      </td>
+      <td class="hits">
+        10
       </td>
     </tr>
   
     
     <tr class="never" >
       <td class="line_number">
-        <pre>4</pre>
+        <pre>9</pre>
+      </td>
+      <td>
+        <pre>    end</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>10</pre>
       </td>
       <td>
         <pre>  end</pre>
@@ -468,7 +528,7 @@
     
     <tr class="never" >
       <td class="line_number">
-        <pre>5</pre>
+        <pre>11</pre>
       </td>
       <td>
         <pre>end</pre>
@@ -582,7 +642,7 @@
     <tr>
       <td colspan="3">
         <h3>./app/models/post.rb</h3>
-        <h4><span class="green">100.0 %</span> covered</h4>
+        <h4><span class="yellow">88.89 %</span> covered</h4>
       </td>
     </tr>
     <tr>
@@ -854,7 +914,7 @@
     </tr>
   
     
-    <tr class="hit" data-hits="1">
+    <tr class="miss" data-hits="0">
       <td class="line_number">
         <pre>21</pre>
       </td>
@@ -862,7 +922,7 @@
         <pre>    self.order(:desc =&gt; &quot;created_at&quot;).limit(10)</pre>
       </td>
       <td class="hits">
-        1
+        0
       </td>
     </tr>
   
@@ -906,7 +966,7 @@
     </tr>
   
     
-    <tr class="hit" data-hits="25">
+    <tr class="hit" data-hits="1">
       <td class="line_number">
         <pre>25</pre>
       </td>
@@ -914,7 +974,7 @@
         <pre>    &quot;#{MONTHS[self.created_at.month]} de #{self.created_at.year}&quot;</pre>
       </td>
       <td class="hits">
-        25
+        1
       </td>
     </tr>
   
@@ -948,560 +1008,6 @@
     <tr class="never" >
       <td class="line_number">
         <pre>28</pre>
-      </td>
-      <td>
-        <pre>end</pre>
-      </td>
-      <td class="hits">
-        
-      </td>
-    </tr>
-  
-    </tbody>
-  </table>
-</div>
-      
-        <div class="source_table" id="dc04618d59bcff97c65d2163de53cd737c88e298">
-  <table>
-    <thead>
-    <tr>
-      <td colspan="3">
-        <h3>./app/models/post_grouper.rb</h3>
-        <h4><span class="green">96.3 %</span> covered</h4>
-      </td>
-    </tr>
-    <tr>
-      <th>#</th>
-      <th></th>
-      <th>Hits</th>
-    </tr>
-    </thead>
-    <tbody>
-  
-    
-    <tr class="hit" data-hits="1">
-      <td class="line_number">
-        <pre>1</pre>
-      </td>
-      <td>
-        <pre>class PostGrouper</pre>
-      </td>
-      <td class="hits">
-        1
-      </td>
-    </tr>
-  
-    
-    <tr class="hit" data-hits="1">
-      <td class="line_number">
-        <pre>2</pre>
-      </td>
-      <td>
-        <pre>  attr_accessor :month, :posts</pre>
-      </td>
-      <td class="hits">
-        1
-      </td>
-    </tr>
-  
-    
-    <tr class="never" >
-      <td class="line_number">
-        <pre>3</pre>
-      </td>
-      <td>
-        <pre>  </pre>
-      </td>
-      <td class="hits">
-        
-      </td>
-    </tr>
-  
-    
-    <tr class="hit" data-hits="1">
-      <td class="line_number">
-        <pre>4</pre>
-      </td>
-      <td>
-        <pre>  def initialize(attributes = {})</pre>
-      </td>
-      <td class="hits">
-        1
-      </td>
-    </tr>
-  
-    
-    <tr class="hit" data-hits="8">
-      <td class="line_number">
-        <pre>5</pre>
-      </td>
-      <td>
-        <pre>    attributes.each do |name, value|</pre>
-      </td>
-      <td class="hits">
-        8
-      </td>
-    </tr>
-  
-    
-    <tr class="hit" data-hits="12">
-      <td class="line_number">
-        <pre>6</pre>
-      </td>
-      <td>
-        <pre>      send(&quot;#{name}=&quot;, value)</pre>
-      </td>
-      <td class="hits">
-        12
-      </td>
-    </tr>
-  
-    
-    <tr class="never" >
-      <td class="line_number">
-        <pre>7</pre>
-      </td>
-      <td>
-        <pre>    end</pre>
-      </td>
-      <td class="hits">
-        
-      </td>
-    </tr>
-  
-    
-    <tr class="never" >
-      <td class="line_number">
-        <pre>8</pre>
-      </td>
-      <td>
-        <pre>  end  </pre>
-      </td>
-      <td class="hits">
-        
-      </td>
-    </tr>
-  
-    
-    <tr class="never" >
-      <td class="line_number">
-        <pre>9</pre>
-      </td>
-      <td>
-        <pre>  </pre>
-      </td>
-      <td class="hits">
-        
-      </td>
-    </tr>
-  
-    
-    <tr class="hit" data-hits="1">
-      <td class="line_number">
-        <pre>10</pre>
-      </td>
-      <td>
-        <pre>  def self.all</pre>
-      </td>
-      <td class="hits">
-        1
-      </td>
-    </tr>
-  
-    
-    <tr class="hit" data-hits="3">
-      <td class="line_number">
-        <pre>11</pre>
-      </td>
-      <td>
-        <pre>    map = {}    </pre>
-      </td>
-      <td class="hits">
-        3
-      </td>
-    </tr>
-  
-    
-    <tr class="hit" data-hits="3">
-      <td class="line_number">
-        <pre>12</pre>
-      </td>
-      <td>
-        <pre>    Post.list.each do |post|</pre>
-      </td>
-      <td class="hits">
-        3
-      </td>
-    </tr>
-  
-    
-    <tr class="hit" data-hits="10">
-      <td class="line_number">
-        <pre>13</pre>
-      </td>
-      <td>
-        <pre>      grouper = map[post.month_year]</pre>
-      </td>
-      <td class="hits">
-        10
-      </td>
-    </tr>
-  
-    
-    <tr class="hit" data-hits="10">
-      <td class="line_number">
-        <pre>14</pre>
-      </td>
-      <td>
-        <pre>      grouper ||= PostGrouper.new(:month =&gt; post.month_year, :posts =&gt; [])      </pre>
-      </td>
-      <td class="hits">
-        10
-      </td>
-    </tr>
-  
-    
-    <tr class="hit" data-hits="10">
-      <td class="line_number">
-        <pre>15</pre>
-      </td>
-      <td>
-        <pre>      grouper.posts &lt;&lt; post</pre>
-      </td>
-      <td class="hits">
-        10
-      </td>
-    </tr>
-  
-    
-    <tr class="hit" data-hits="10">
-      <td class="line_number">
-        <pre>16</pre>
-      </td>
-      <td>
-        <pre>      map.merge!(post.month_year =&gt; grouper)</pre>
-      </td>
-      <td class="hits">
-        10
-      </td>
-    </tr>
-  
-    
-    <tr class="never" >
-      <td class="line_number">
-        <pre>17</pre>
-      </td>
-      <td>
-        <pre>    end</pre>
-      </td>
-      <td class="hits">
-        
-      </td>
-    </tr>
-  
-    
-    <tr class="hit" data-hits="3">
-      <td class="line_number">
-        <pre>18</pre>
-      </td>
-      <td>
-        <pre>    right_group = []</pre>
-      </td>
-      <td class="hits">
-        3
-      </td>
-    </tr>
-  
-    
-    <tr class="hit" data-hits="3">
-      <td class="line_number">
-        <pre>19</pre>
-      </td>
-      <td>
-        <pre>    left_group = []</pre>
-      </td>
-      <td class="hits">
-        3
-      </td>
-    </tr>
-  
-    
-    <tr class="hit" data-hits="3">
-      <td class="line_number">
-        <pre>20</pre>
-      </td>
-      <td>
-        <pre>    count = 0</pre>
-      </td>
-      <td class="hits">
-        3
-      </td>
-    </tr>
-  
-    
-    <tr class="hit" data-hits="3">
-      <td class="line_number">
-        <pre>21</pre>
-      </td>
-      <td>
-        <pre>    map.each do |entry|</pre>
-      </td>
-      <td class="hits">
-        3
-      </td>
-    </tr>
-  
-    
-    <tr class="hit" data-hits="4">
-      <td class="line_number">
-        <pre>22</pre>
-      </td>
-      <td>
-        <pre>      puts count</pre>
-      </td>
-      <td class="hits">
-        4
-      </td>
-    </tr>
-  
-    
-    <tr class="hit" data-hits="4">
-      <td class="line_number">
-        <pre>23</pre>
-      </td>
-      <td>
-        <pre>      puts entry[1]</pre>
-      </td>
-      <td class="hits">
-        4
-      </td>
-    </tr>
-  
-    
-    <tr class="hit" data-hits="4">
-      <td class="line_number">
-        <pre>24</pre>
-      </td>
-      <td>
-        <pre>      if count &lt;= 5</pre>
-      </td>
-      <td class="hits">
-        4
-      </td>
-    </tr>
-  
-    
-    <tr class="hit" data-hits="4">
-      <td class="line_number">
-        <pre>25</pre>
-      </td>
-      <td>
-        <pre>        right_group &lt;&lt; entry[1]        </pre>
-      </td>
-      <td class="hits">
-        4
-      </td>
-    </tr>
-  
-    
-    <tr class="never" >
-      <td class="line_number">
-        <pre>26</pre>
-      </td>
-      <td>
-        <pre>      else</pre>
-      </td>
-      <td class="hits">
-        
-      </td>
-    </tr>
-  
-    
-    <tr class="miss" data-hits="0">
-      <td class="line_number">
-        <pre>27</pre>
-      </td>
-      <td>
-        <pre>        left_group &lt;&lt; entry[1]</pre>
-      </td>
-      <td class="hits">
-        0
-      </td>
-    </tr>
-  
-    
-    <tr class="never" >
-      <td class="line_number">
-        <pre>28</pre>
-      </td>
-      <td>
-        <pre>      end</pre>
-      </td>
-      <td class="hits">
-        
-      </td>
-    </tr>
-  
-    
-    <tr class="hit" data-hits="4">
-      <td class="line_number">
-        <pre>29</pre>
-      </td>
-      <td>
-        <pre>      count+=entry[1].posts.size</pre>
-      </td>
-      <td class="hits">
-        4
-      </td>
-    </tr>
-  
-    
-    <tr class="never" >
-      <td class="line_number">
-        <pre>30</pre>
-      </td>
-      <td>
-        <pre>    end</pre>
-      </td>
-      <td class="hits">
-        
-      </td>
-    </tr>
-  
-    
-    <tr class="hit" data-hits="3">
-      <td class="line_number">
-        <pre>31</pre>
-      </td>
-      <td>
-        <pre>    [right_group, left_group]</pre>
-      </td>
-      <td class="hits">
-        3
-      </td>
-    </tr>
-  
-    
-    <tr class="never" >
-      <td class="line_number">
-        <pre>32</pre>
-      </td>
-      <td>
-        <pre>  end</pre>
-      </td>
-      <td class="hits">
-        
-      </td>
-    </tr>
-  
-    
-    <tr class="never" >
-      <td class="line_number">
-        <pre>33</pre>
-      </td>
-      <td>
-        <pre>  </pre>
-      </td>
-      <td class="hits">
-        
-      </td>
-    </tr>
-  
-    
-    <tr class="hit" data-hits="1">
-      <td class="line_number">
-        <pre>34</pre>
-      </td>
-      <td>
-        <pre>  def ==(other)</pre>
-      </td>
-      <td class="hits">
-        1
-      </td>
-    </tr>
-  
-    
-    <tr class="hit" data-hits="2">
-      <td class="line_number">
-        <pre>35</pre>
-      </td>
-      <td>
-        <pre>    self.month == other.month</pre>
-      </td>
-      <td class="hits">
-        2
-      </td>
-    </tr>
-  
-    
-    <tr class="never" >
-      <td class="line_number">
-        <pre>36</pre>
-      </td>
-      <td>
-        <pre>  end</pre>
-      </td>
-      <td class="hits">
-        
-      </td>
-    </tr>
-  
-    
-    <tr class="never" >
-      <td class="line_number">
-        <pre>37</pre>
-      </td>
-      <td>
-        <pre>  </pre>
-      </td>
-      <td class="hits">
-        
-      </td>
-    </tr>
-  
-    
-    <tr class="hit" data-hits="1">
-      <td class="line_number">
-        <pre>38</pre>
-      </td>
-      <td>
-        <pre>  def to_s</pre>
-      </td>
-      <td class="hits">
-        1
-      </td>
-    </tr>
-  
-    
-    <tr class="hit" data-hits="4">
-      <td class="line_number">
-        <pre>39</pre>
-      </td>
-      <td>
-        <pre>    self.month</pre>
-      </td>
-      <td class="hits">
-        4
-      </td>
-    </tr>
-  
-    
-    <tr class="never" >
-      <td class="line_number">
-        <pre>40</pre>
-      </td>
-      <td>
-        <pre>  end</pre>
-      </td>
-      <td class="hits">
-        
-      </td>
-    </tr>
-  
-    
-    <tr class="never" >
-      <td class="line_number">
-        <pre>41</pre>
       </td>
       <td>
         <pre>end</pre>

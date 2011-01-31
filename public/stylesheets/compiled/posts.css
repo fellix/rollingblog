@@ -1,0 +1,15 @@
+/* line 1, ../../../app/stylesheets/posts.scss */
+#post, #post_body, #post_content, #post_footer {
+  padding-top: 20px;
+}
+
+/* line 4, ../../../app/stylesheets/posts.scss */
+#post_body {
+  padding-left: 200px;
+}
+
+/* line 13, ../../../app/stylesheets/posts.scss */
+#post_footer {
+  font-style: italic;
+  font-size: 10px;
+}
