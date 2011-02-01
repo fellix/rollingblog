@@ -19,6 +19,14 @@ RSpec:
     /media/dados/projects/rails/rollingblog/app/controllers/application_controller.rb: 
     - 1
     - 1
+    - 1
+    - 
+    - 1
+    - 
+    - 1
+    - 1
+    - 
+    - 
     - 
     /media/dados/projects/rails/rollingblog/app/helpers/application_helper.rb: 
     - 1
@@ -26,16 +34,25 @@ RSpec:
     /media/dados/projects/rails/rollingblog/app/helpers/pages_helper.rb: 
     - 1
     - 
+    /media/dados/projects/rails/rollingblog/app/helpers/posts_helper.rb: 
+    - 1
+    - 
     /media/dados/projects/rails/rollingblog/app/controllers/pages_controller.rb: 
     - 1
     - 1
-    - 2
-    - 2
-    - 2
-    - 2
-    - 10
-    - 10
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
     - 
+    - 
+    - 
+    /media/dados/projects/rails/rollingblog/app/controllers/posts_controller.rb: 
+    - 1
+    - 1
+    - 2
     - 
     - 
     /media/dados/projects/rails/rollingblog/app/models/post.rb: 
@@ -57,14 +74,15 @@ RSpec:
     - 1
     - 1
     - 1
+    - 1
     - 
     - 1
     - 0
     - 
     - 
     - 1
-    - 1
+    - 0
     - 
     - 
     - 
-  :created_at: 2011-01-30 16:45:47.457748 -02:00
+  :created_at: 2011-01-31 22:48:35.394723 -02:00

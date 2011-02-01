@@ -6,11 +6,6 @@ GIT
       builder (~> 2.1.0)
       rails (~> 3.0.3)
 
-PATH
-  remote: /media/dados/projects/rails/disqus
-  specs:
-    disqus (1.0.4)
-
 GEM
   remote: http://rubygems.org/
   specs:
@@ -188,7 +183,6 @@ DEPENDENCIES
   brdata (= 3.0.2)
   compass (>= 0.10.6)
   devise (>= 1.1.5)
-  disqus!
   evergreen
   factory_girl_rails
   friendly_id (~> 3.0)

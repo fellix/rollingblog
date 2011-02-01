@@ -5,3 +5,21 @@
     = @post.body
   %div{:id => :post_footer}
     = "Postado em #{@post.created_at.to_s_br} por #{@post.user.name}. Ultima atualização #{@post.updated_at.to_s_br}"
+  %div{:id => "disqus_thread"}
+  %a{:href => "http://disqus.com", :class => "dsq-brlink" }
+    blog comments powered by 
+    %span{:class=>"logo-disqus"}Disqus
+
+:javascript
+  // The following are highly recommended additional parameters. Remove the slashes in front to use.
+  var disqus_identifier = '#{@post.id}';
+  var disqus_url = 'http://rollingwithcode.com/posts/#{@post.id}';
+  //var disqus_url = 'http://localhost:3000/posts/#{@post.friendly_id}';
+
+  /* * * DON'T EDIT BELOW THIS LINE * * */
+  (function() {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://rollingwithcode.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+

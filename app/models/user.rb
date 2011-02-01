@@ -9,6 +9,6 @@ class User < ActiveRecord::Base
   validates :name, :presence => true, :length => { :maximum => 200 }
   
   def to_s
-    "#{self.id} - #{self.name}"
+    "#{self.name}"
   end
 end
