@@ -181,6 +181,7 @@ DEPENDENCIES
   autotest-notification
   barista (>= 0.5.0)
   brdata (= 3.0.2)
+  capybara
   compass (>= 0.10.6)
   devise (>= 1.1.5)
   evergreen

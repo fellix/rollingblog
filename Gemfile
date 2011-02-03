@@ -29,6 +29,7 @@ group :development, :test do
   gem "shoulda"
   gem "factory_girl_rails"
   gem "rspec-rails", ">=2.4.1"
+  gem "capybara"
   gem "evergreen", :require => "evergreen/rails"
 end
 
