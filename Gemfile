@@ -13,7 +13,7 @@ gem "barista", ">= 0.5.0"
 gem "compass", ">= 0.10.6"
 gem "lemonade", "0.3.4"
 gem "brdata", "3.0.2"
-#gem "disqus", :path => "/media/dados/projects/rails/disqus"
+gem "gravtastic"
 
 group :development do
   gem "hpricot"

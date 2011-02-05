@@ -316,7 +316,27 @@ a.btn:hover {
   font-size: 10px;
 }
 
-/* line 13, ../../../app/stylesheets/screen.scss */
+/* line 1, ../../../app/stylesheets/about.scss */
+#abouts {
+  padding-left: 250px;
+  padding-right: 250px;
+  padding-top: 35px;
+}
+
+/* line 6, ../../../app/stylesheets/about.scss */
+.about {
+  padding: 10px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border: 10px solid #ccc;
+}
+
+/* line 13, ../../../app/stylesheets/about.scss */
+.about h2 {
+  padding-bottom: 10px;
+}
+
+/* line 14, ../../../app/stylesheets/screen.scss */
 body {
   margin: 0;
   padding: 0;

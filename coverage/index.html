@@ -21,20 +21,20 @@
       <img src="./assets/0.3.9/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2011-02-02T23:05:37-02:00">2011-02-02T23:05:37-02:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2011-02-04T23:53:46-02:00">2011-02-04T23:53:46-02:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
         <div class="file_list_container" id="AllFiles">
   <h2>
     All Files
-    (<span class="green">94.44%</span>)
+    (<span class="green">95.24%</span>)
   </h2>
   <a name="AllFiles"></a>
   <div>
-    <b>8</b> files in total.
-    <b>36</b> relevant lines. 
-    <span class="green"><b>34</b> lines covered</span> and
+    <b>9</b> files in total.
+    <b>42</b> relevant lines. 
+    <span class="green"><b>40</b> lines covered</span> and
     <span class="red"><b>2</b> lines missed </span>
   </div>
   <table class="file_list">
@@ -62,9 +62,9 @@
       <tr>
         <td><a href="#ed92f3b30bddd68bf0daa40f46bbfc6bd8f4213d" class="src_link" title="./app/controllers/pages_controller.rb">./app/controllers/pages_controller.rb</a></td>
         <td class="green">100.0 %</td>
+        <td>16</td>
         <td>11</td>
-        <td>8</td>
-        <td>8</td>
+        <td>11</td>
         <td>0</td>
       </tr>
       
@@ -105,6 +105,15 @@
       </tr>
       
       <tr>
+        <td><a href="#ff8bb5b4a6384c2abe3b80d93c02ee27d2d2d83f" class="src_link" title="./app/models/about.rb">./app/models/about.rb</a></td>
+        <td class="green">100.0 %</td>
+        <td>4</td>
+        <td>3</td>
+        <td>3</td>
+        <td>0</td>
+      </tr>
+      
+      <tr>
         <td><a href="#43cd868fafbc988a9e4f73058ad77d666ccebf26" class="src_link" title="./app/models/post.rb">./app/models/post.rb</a></td>
         <td class="yellow">90.0 %</td>
         <td>29</td>
@@ -135,8 +144,8 @@
   <a name="Controllers"></a>
   <div>
     <b>3</b> files in total.
-    <b>17</b> relevant lines. 
-    <span class="green"><b>17</b> lines covered</span> and
+    <b>20</b> relevant lines. 
+    <span class="green"><b>20</b> lines covered</span> and
     <span class="red"><b>0</b> lines missed </span>
   </div>
   <table class="file_list">
@@ -164,9 +173,9 @@
       <tr>
         <td><a href="#ed92f3b30bddd68bf0daa40f46bbfc6bd8f4213d" class="src_link" title="./app/controllers/pages_controller.rb">./app/controllers/pages_controller.rb</a></td>
         <td class="green">100.0 %</td>
+        <td>16</td>
         <td>11</td>
-        <td>8</td>
-        <td>8</td>
+        <td>11</td>
         <td>0</td>
       </tr>
       
@@ -186,13 +195,13 @@
           <div class="file_list_container" id="Models">
   <h2>
     Models
-    (<span class="yellow">87.5%</span>)
+    (<span class="yellow">89.47%</span>)
   </h2>
   <a name="Models"></a>
   <div>
-    <b>2</b> files in total.
-    <b>16</b> relevant lines. 
-    <span class="green"><b>14</b> lines covered</span> and
+    <b>3</b> files in total.
+    <b>19</b> relevant lines. 
+    <span class="green"><b>17</b> lines covered</span> and
     <span class="red"><b>2</b> lines missed </span>
   </div>
   <table class="file_list">
@@ -207,6 +216,15 @@
       </tr>
     </thead>
     <tbody>
+      
+      <tr>
+        <td><a href="#ff8bb5b4a6384c2abe3b80d93c02ee27d2d2d83f" class="src_link" title="./app/models/about.rb">./app/models/about.rb</a></td>
+        <td class="green">100.0 %</td>
+        <td>4</td>
+        <td>3</td>
+        <td>3</td>
+        <td>0</td>
+      </tr>
       
       <tr>
         <td><a href="#43cd868fafbc988a9e4f73058ad77d666ccebf26" class="src_link" title="./app/models/post.rb">./app/models/post.rb</a></td>
@@ -671,6 +689,71 @@
         <pre>11</pre>
       </td>
       <td>
+        <pre>  </pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>12</pre>
+      </td>
+      <td>
+        <pre>  def about</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="2">
+      <td class="line_number">
+        <pre>13</pre>
+      </td>
+      <td>
+        <pre>    @abouts = About.all    </pre>
+      </td>
+      <td class="hits">
+        2
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="2">
+      <td class="line_number">
+        <pre>14</pre>
+      </td>
+      <td>
+        <pre>    flash[:alert] = t('about.nothing') if @abouts.empty?</pre>
+      </td>
+      <td class="hits">
+        2
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>15</pre>
+      </td>
+      <td>
+        <pre>  end</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>16</pre>
+      </td>
+      <td>
         <pre>end</pre>
       </td>
       <td class="hits">
@@ -896,6 +979,79 @@
     <tr class="never" >
       <td class="line_number">
         <pre>2</pre>
+      </td>
+      <td>
+        <pre>end</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    </tbody>
+  </table>
+</div>
+      
+        <div class="source_table" id="ff8bb5b4a6384c2abe3b80d93c02ee27d2d2d83f">
+  <table>
+    <thead>
+    <tr>
+      <td colspan="3">
+        <h3>./app/models/about.rb</h3>
+        <h4><span class="green">100.0 %</span> covered</h4>
+      </td>
+    </tr>
+    <tr>
+      <th>#</th>
+      <th></th>
+      <th>Hits</th>
+    </tr>
+    </thead>
+    <tbody>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>1</pre>
+      </td>
+      <td>
+        <pre>class About &lt; ActiveRecord::Base</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>2</pre>
+      </td>
+      <td>
+        <pre>  belongs_to :user</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>3</pre>
+      </td>
+      <td>
+        <pre>  validates :user, :body, :presence =&gt; true  </pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>4</pre>
       </td>
       <td>
         <pre>end</pre>

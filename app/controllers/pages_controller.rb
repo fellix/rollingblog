@@ -8,4 +8,9 @@ class PagesController < ApplicationController
       @right_group << post if count >= 5
     end
   end
+  
+  def about
+    @abouts = About.all    
+    flash[:alert] = t('about.nothing') if @abouts.empty?
+  end
 end

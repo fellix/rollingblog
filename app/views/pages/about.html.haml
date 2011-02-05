@@ -1,0 +1,7 @@
+%div{:id => :abouts}
+  - @abouts.each do |about|
+    %div{:id => "about_#{about.id}", :class => :about}
+      %h2
+        = image_tag about.user.gravatar_url
+        = about.user.name
+      %p= about.body.html_safe

@@ -2,7 +2,7 @@
   %h2
     = @post.title
   %div{:id => :post_content}
-    = @post.body
+    = @post.body.html_safe
   %div{:id => :post_footer}
     = "Postado em #{@post.created_at.to_s_br} por #{@post.user.name}. Ultima atualização #{@post.updated_at.to_s_br}"
   %div{:id => "disqus_thread"}
