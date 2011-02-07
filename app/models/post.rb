@@ -17,10 +17,9 @@ class Post < ActiveRecord::Base
   validates :title, :body, :user, :presence => true
   validates :title, :length => { :maximum => 200 }
   has_friendly_id :title, :use_slug => true
-  
-  def self.list
-    self.order(:desc => "created_at").limit(10)
-  end
+  scope :list, lambda {
+    order(:desc => "created_at").limit(10)
+  }
   
   def month_year
     "#{MONTHS[self.created_at.month]} de #{self.created_at.year}"
