@@ -1,5 +1,4 @@
-user = User.first
-user ||= Factory.create(:user)
+user = Factory.build(:user)
 Factory.define :welcome, :class => Post do |post|
   #post.id 1
   post.user_id user.id
