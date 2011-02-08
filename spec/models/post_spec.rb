@@ -9,5 +9,5 @@ describe Post do
   it "should show a valid month/year in long way" do
     @post = Factory.build(:welcome)
     @post.month_year.should be_eql "Janeiro de 2011"
-  end
+  end  
 end
