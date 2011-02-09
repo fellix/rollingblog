@@ -13,12 +13,12 @@
 :javascript
   // The following are highly recommended additional parameters. Remove the slashes in front to use.
   var disqus_identifier = '#{@post.friendly_id}';
-  var disqus_url = 'http://rollingwithcode.heroku.com/posts/#{@post.friendly_id}';
+  var disqus_url = '#{RollingBlog.disqus_url}/posts/#{@post.friendly_id}';
 
   /* * * DON'T EDIT BELOW THIS LINE * * */
   (function() {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-      dsq.src = 'http://rollingwithcodeh.disqus.com/embed.js';
+      dsq.src = 'http://#{RollingBlog.disqus_id}.disqus.com/embed.js';
       (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
   })();
 

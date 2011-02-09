@@ -1,0 +1,11 @@
+== RollingBlog
+
+This code is the code for my personal blog see it at (http://rollingwithcode.heroku.com)
+
+== Why I made it?
+
+Really, I don't know :), it's created for study, and for create my own blog engine.
+
+== Hey, I like it, Can I use it?
+
+Well, first of all, you must be playing with me :), but you can config the appllication using the RollingBlog.config method see config/initializers/rollingblog_init_sample.rb
