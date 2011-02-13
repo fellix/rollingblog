@@ -1,5 +1,7 @@
-class PagesController < ApplicationController
+class PagesController < ApplicationController  
   def index
+    @page_description = "10 ultimos posts. Last ten posts"
+    @page_keywords = "Rollingwithcode, Software, Desenvolvimento, Java, Ruby, Ruby on Rails"
     @posts = Post.list
     @right_group = []
     @left_group = []
@@ -10,6 +12,9 @@ class PagesController < ApplicationController
   end
   
   def about
+    @page_title = "Sobre"
+    @page_description = "Sobre o autor do blog"
+    @page_keywords = "Rollingwithcode, Rafael Felix, Rafael, Felix"
     @abouts = About.all    
     flash[:alert] = t('about.nothing') if @abouts.empty?
   end

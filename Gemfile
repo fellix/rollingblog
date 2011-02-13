@@ -14,6 +14,7 @@ gem "compass", ">= 0.10.6"
 gem "lemonade", "0.3.4"
 gem "brdata", "3.0.2"
 gem "gravtastic"
+gem "meta-tags", :require => 'meta_tags'
 
 group :development do
   gem "hpricot"
