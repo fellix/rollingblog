@@ -6,7 +6,7 @@ describe PostsController do
   end
   describe "GET 'show'" do
     it "should be successful" do
-      Post.stub(:find).with(1).and_return(@post)
+      Post.stub(:find_by_url).with(1).and_return(@post)
       get 'show', :id => 1
       response.should be_success
       assigns[:post].should eq(@post)

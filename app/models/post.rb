@@ -21,6 +21,12 @@ class Post < ActiveRecord::Base
   
   def month_year
     "#{MONTHS[self.created_at.month]} de #{self.created_at.year}"
-  end  
+  end
+  
+  def self.find_by_url(friendly_id)
+    result = self.joins("JOIN slugs ON slugs.sluggable_id = posts.id and slugs.sluggable_type = 'Post'").where("slugs.name = ?", friendly_id).first
+    raise ActiveRecord::RecordNotFound unless result
+    result
+  end
   
 end
