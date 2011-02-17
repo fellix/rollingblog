@@ -6,9 +6,10 @@
 /* line 4, ../../../app/stylesheets/posts.scss */
 #post_body {
   padding-left: 200px;
+  padding-right: 200px;
 }
 
-/* line 13, ../../../app/stylesheets/posts.scss */
+/* line 14, ../../../app/stylesheets/posts.scss */
 #post_footer {
   font-style: italic;
   font-size: 10px;
