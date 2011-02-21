@@ -15,7 +15,7 @@ class Post < ActiveRecord::Base
   }
   belongs_to :user
   validates :title, :body, :user, :presence => true
-  validates :title, :length => { :maximum => 200 }
+  validates :title, :keywords, :length => { :maximum => 200 }
   has_friendly_id :title, :use_slug => true
   scope :list, order("created_at desc").limit(10)  
   
