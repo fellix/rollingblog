@@ -3,6 +3,6 @@ class PostsController < ApplicationController
     @post = Post.find_by_url params[:id]
     @page_title = "#{@post.title}"
     @page_description = "#{@post.body}"
-    #TODO: include tags to keywords    
+    @page_keywords = @post.keywords
   end
 end
