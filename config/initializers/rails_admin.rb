@@ -6,6 +6,7 @@ RailsAdmin.config do |config|
       field :body do
         ckeditor true
       end
+      field :keywords
     end
   end
   config.model About do
